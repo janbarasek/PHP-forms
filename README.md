@@ -10,13 +10,16 @@ Framework se výborně kamarádí s jinými frameworky. Pokud používáte BootS
 
 Celý framework je psaný v objektech jako statická třída. Stačí jej proto na začátku souboru načíst a je ihned k dispozici. Načtení se dělá jednoduše takto:
 
-<code>
+```php
 include 'forms.php';
-</code>
+```
 
 Framework myslí hlavně na rychlost a další kompatibilitu. Mám v plánu brzy vydat další "komponenty", které budou tvořit celý plnohodnotný framework s důrazem na jednoduchost a opravdu rychlý vývoj (a také rychlost webu :D).
 
-Ukázka syntaxe jednoduchého formuláře:<code><pre><?php
+Ukázka syntaxe jednoduchého formuláře:
+
+```php
+<?php
 include 'forms.php';
  
 $form = array(
@@ -50,4 +53,4 @@ Forms::render($form, // zavoláme statickou metodu, která se postará o celou l
        'submit' => 'Dokončit objednávku', // text odesílacího tlačítka
     )
 );
-</pre></code>
+```
