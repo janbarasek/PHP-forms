@@ -1,6 +1,6 @@
 # Baraja PHP Forms
 
-Živé demo: forms.baraja.cz/demo.php
+Živé demo: [http://forms.baraja.cz/demo.php](http://forms.baraja.cz/demo.php)
 
 Framework má opravdu simple-use syntaxi, kterou pochopí každý během jediné minuty. Není potřeba studovat dokumentaci. Stačí jej prostě začít používat podle přiložené ukázky. Veškerou logiku si řeší interně sám.
 
@@ -14,13 +14,14 @@ Instalace
 Celý framework je psaný v objektech jako statická třída. Stačí jej proto na začátku souboru načíst a je ihned k dispozici. Načtení se dělá jednoduše takto:
 
 ```php
+<?php
 include 'forms.php';
 ```
 
 Příklad použití
 ---------------
 
-Framework myslí hlavně na rychlost a další kompatibilitu. Mám v plánu brzy vydat další "komponenty", které budou tvořit celý plnohodnotný framework s důrazem na jednoduchost a opravdu rychlý vývoj (a také rychlost webu :D).
+Framework myslí hlavně na rychlost a další kompatibilitu. Mám v plánu brzy vydat další "komponenty", které budou tvořit celý plnohodnotný framework s důrazem na jednoduchost a opravdu rychlý vývoj (a také rychlost webu).
 
 Ukázka syntaxe jednoduchého formuláře:
 
