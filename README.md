@@ -8,11 +8,17 @@ Při návrhu jsem vycházel z praxe, proto framework sám řeší všechny věci
 
 Framework se výborně kamarádí s jinými frameworky. Pokud používáte BootStrap, tak bude formulář rovnou hezky ostylovaný (jako na obrázku); v ostatních případech stačí velice rychle vytvořit základní styly. Design formuláře je možné dále jednoduše přizpůsobit.
 
+Instalace
+---------
+
 Celý framework je psaný v objektech jako statická třída. Stačí jej proto na začátku souboru načíst a je ihned k dispozici. Načtení se dělá jednoduše takto:
 
 ```php
 include 'forms.php';
 ```
+
+Příklad použití
+---------------
 
 Framework myslí hlavně na rychlost a další kompatibilitu. Mám v plánu brzy vydat další "komponenty", které budou tvořit celý plnohodnotný framework s důrazem na jednoduchost a opravdu rychlý vývoj (a také rychlost webu :D).
 
